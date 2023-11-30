@@ -2,7 +2,7 @@ from flask import Flask, render_template, request
 import random
 import os
 
-app = Flask(__name__, template_folder='static')
+app = Flask(__name__, template_folder='templates')
 
 # Lista de opciones: piedra, papel, tijeras
 opciones = ['piedra', 'papel', 'tijeras']
